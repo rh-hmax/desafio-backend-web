@@ -1,4 +1,4 @@
-# Desafio Backend Web: API NestJs + Jest com MongoDb pa
+# Desafio Backend Web: API NestJs com Jest e MongoDb
 
 ## História
 Somos uma distribuidora de produtos diversos e precisamos de uma API onde possamos gestar os pedidos de nossos clientes, sendo assim precisamos de uma API nos padrões RESTFul que permita a um GERENTE gestar os Pedidos e seus Produtos e que permita ao nosso CLIENTE, fazer pedidos, mas não alterá-los
@@ -25,15 +25,15 @@ Somos uma distribuidora de produtos diversos e precisamos de uma API onde possam
 5. A API deve persitir em um banco de dados (Preferencialmente o MongoDB. Não sendo possível, utilizar PostgreSQL)
 
 ### Entrega
-	- Um repositório GitHub
-  - README.md com todas as informações necessárias para rodar a API e testar cada um dos requisitos funcionais
-	- Um ambiente rodando a aplicação
+- Um repositório GitHub
+- README.md com todas as informações necessárias para rodar a API e testar cada um dos requisitos funcionais
+- Um ambiente rodando a aplicação
 
 ### Critérios de avaliação
-	- Ambiente rodando a aplicação corretamente
-  - Entendimento dos requisitos
-	- Afinidade com a ferramenta utilizada
-	- Testes unitários
-	- Estrutura de arquivos
-	- Padrão de escrita do código
-	- Utilização de boas práticas
+- Ambiente rodando a aplicação corretamente
+- Entendimento dos requisitos
+- Afinidade com a ferramenta utilizada
+- Testes unitários
+- Estrutura de arquivos
+- Padrão de escrita do código
+- Utilização de boas práticas
