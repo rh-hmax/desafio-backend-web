@@ -10,12 +10,11 @@ Somos uma distribuidora de produtos diversos e precisamos de uma API onde possam
 4. Como GERENTE gostaria de LISTAR os produtos cadastrados
 5. Como GERENTE gostaria de BUSCAR produtos pela sua DESCRIÇÃO
 6. Como GERENTE preciso que os resultados da LISTA sejam PAGINADOS
-7. Como GERENTE quero que apenas um GERENTE possa incluir, alterar ou remover remover produtos
-8. Como GERENTE quero que apenas um GERENTE possa alterar um pedido
-8. Como CLIENTE quero CADASTRAR um PEDIDO com um ou mais produtos vinculados a ele
-9. Como CLIENTE quero visualizar todos os meus pedidos e ver o status em que estão
-10. Como GERENTE quero LISTAR os pedidos de compra em ABERTO
-11. Como GERENTE quero ALTERAR o status de um pedido de ABERTO para CONCLUÍDO
+7. Como CLIENTE quero VISUALIZAR a LISTA de produtos cadastrados
+
+### Regras de negócio
+1. Só USUÁRIOS AUTENTICADOS podem acessar a API
+2. Só um GERENTE pode ter acesso para INCLUIR, ALTERAR ou REMOVER produtos
 
 ### Requisitos não funcionais
 1. A API deve usar [NestJs](https://nestjs.com/) com Typescript
@@ -33,7 +32,8 @@ Somos uma distribuidora de produtos diversos e precisamos de uma API onde possam
 - Ambiente rodando a aplicação corretamente
 - Entendimento dos requisitos
 - Afinidade com a ferramenta utilizada
+- Organização de arquivos e pastas
+- Nomenclatura de métodos
 - Testes unitários
-- Estrutura de arquivos
-- Padrão de escrita do código
+- Padrão e clareza de escrita do código
 - Utilização de boas práticas
